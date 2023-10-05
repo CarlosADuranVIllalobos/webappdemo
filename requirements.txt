@@ -1,7 +1,7 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-_r-mutex=1.0.1=anacondar_1
+# _r-mutex=1.0.1=anacondar_1
 absl-py=1.4.0=pypi_0
 aiofiles=22.1.0=py38haa95532_0
 aiosqlite=0.18.0=py38haa95532_0
@@ -217,7 +217,7 @@ pytoolconfig=1.2.5=pyhd8ed1ab_0
 pytorch=2.0.1=py3.8_cpu_0
 pytorch-mutex=1.0=cpu
 pytz=2022.7=py38haa95532_0
-#pywin32=305=py38h2bbff1b_0
+# pywin32=305=py38h2bbff1b_0
 pywinpty=2.0.10=py38h5da7b33_0
 pyyaml=6.0=py38h2bbff1b_1
 pyzmq=23.2.0=py38hd77b12b_0
@@ -323,7 +323,7 @@ tensorflow-estimator=2.13.0=pypi_0
 tensorflow-intel=2.13.0=pypi_0
 tensorflow-io-gcs-filesystem=0.31.0=pypi_0
 termcolor=2.3.0=pypi_0
-#terminado=0.17.1=py38haa95532_0
+# terminado=0.17.1=py38haa95532_0
 threadpoolctl=2.2.0=pyh0d69192_0
 tinycss2=1.2.1=py38haa95532_0
 tk=8.6.12=h2bbff1b_0
