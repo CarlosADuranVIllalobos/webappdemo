@@ -135,7 +135,7 @@ python-lsp-jsonrpc @ file:///home/conda/feedstock_root/build_artifacts/python-ls
 python-lsp-server @ file:///home/conda/feedstock_root/build_artifacts/python-lsp-server-meta_1688065622325/work
 pytoolconfig @ file:///home/conda/feedstock_root/build_artifacts/pytoolconfig_1675124745143/work
 pytz @ file:///C:/b/abs_22fofvpn1x/croot/pytz_1671698059864/work
-pywin32==305.1
+# pywin32==305.1
 pywinpty @ file:///C:/b/abs_73vshmevwq/croot/pywinpty_1677609966356/work/target/wheels/pywinpty-2.0.10-cp38-none-win_amd64.whl
 PyYAML==6.0
 pyzmq @ file:///C:/ci/pyzmq_1657616005830/work
@@ -171,7 +171,7 @@ tomli @ file:///C:/Windows/TEMP/abs_ac109f85-a7b3-4b4d-bcfd-52622eceddf0hy332ojo
 tomlkit @ file:///home/conda/feedstock_root/build_artifacts/tomlkit_1690472772788/work
 torch==2.0.1
 torchvision==0.15.2
-tornado @ file:///C:/b/abs_61jhmrrua1/croot/tornado_1690848767317/work
+# tornado @ file:///C:/b/abs_61jhmrrua1/croot/tornado_1690848767317/work
 traitlets @ file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work
 typing_extensions==4.5.0
 tzdata @ file:///croot/python-tzdata_1690578112552/work
