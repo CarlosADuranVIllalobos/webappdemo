@@ -1,5 +1,5 @@
 absl-py==1.4.0
-aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
+# aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
 aiosqlite @ file:///C:/b/abs_9djc_0pyi3/croot/aiosqlite_1683773915844/work
 anyio @ file:///C:/ci/anyio_1644463701441/work/dist
 appdirs==1.4.4
