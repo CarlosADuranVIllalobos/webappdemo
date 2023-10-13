@@ -279,5 +279,5 @@ def hidden_widget(var):
     
 #var = [95, -70, 0, 0] # variability: [viability %, inhibitor conc., growth rate%, start of the exhaustion%] 
 #sim_ideal(var)
-var = [98, -50, 0, 0] # variability: [viability , inhibitor conc., growth rate, start of the exhaustion] [%]
-sim_real(var)
+#var = [98, -50, 0, 0] # variability: [viability , inhibitor conc., growth rate, start of the exhaustion] [%]
+#sim_real(var)
