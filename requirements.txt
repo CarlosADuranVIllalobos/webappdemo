@@ -6,4 +6,8 @@ ipywidgets
 jupyter_contrib_nbextensions
 matplotlib
 widgetsnbextension
+bqplot
+ipympl
+ipyvolume
+scipy
 voila
