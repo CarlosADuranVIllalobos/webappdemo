@@ -6,5 +6,4 @@ ipywidgets
 jupyter_contrib_nbextensions
 matplotlib
 widgetsnbextension
-binder
 voila
