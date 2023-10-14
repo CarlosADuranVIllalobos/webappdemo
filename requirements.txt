@@ -7,4 +7,5 @@ matplotlib == 3.7.1
 scipy == 1.10.1
 widgetsnbextension == 3.5.2
 voila == 0.3.7
+jupyter
 notebook == 6.5.4
