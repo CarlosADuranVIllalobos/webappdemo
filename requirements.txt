@@ -3,9 +3,7 @@ scikit-learn
 scipy
 seaborn
 ipywidgets
-jupyter_contrib_nbextensions
 matplotlib
-widgetsnbextension
 bqplot
 ipympl
 ipyvolume
