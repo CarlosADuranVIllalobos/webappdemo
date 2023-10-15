@@ -1,5 +1,6 @@
 #versions: myenv, binderenv, myenvextras
 dependencies:
   - python==3.8.10 #
+  - voila
 
 
