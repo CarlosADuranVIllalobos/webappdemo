@@ -193,10 +193,12 @@ def sim_endpoint(tcellmodel, hours, us, variability):
     axs[0].xaxis.set_tick_params(labelsize=font);
     axs[0].tick_params(axis='y', labelcolor='tab:brown')
     axs[0].set_ylim([0, 2])
-    y_std = abs(np.random.uniform(-0.3, 0.3))*sx[96,3]
+    y_std = np.random.uniform(-0.2, 0.2)*sx[96,3]
     y_mean = y_std*sy[96] + sy[96]*sx[96,3]
-    axs[1].errorbar(96, y_mean, y_std*1.5*sy[96], color='tab:blue' , markersize=8 )
-    axs[1].plot(96,sy[96]*sx[96,3], marker='o', markersize=8 ,color='blue', linewidth=3)
+    (_, caps, _) = axs[1].errorbar(96, y_mean, yerr=abs(y_std*2*sy[96]), marker='o',linewidth=4,barsabove=True , color='tab:blue' , markersize=16,capsize=16, label='Prediction' )
+    for cap in caps:
+        cap.set_markeredgewidth(1)
+    #axs[1].plot(96,sy[96]*sx[96,3], marker='o', markersize=8 ,color='blue', linewidth=3)
     #axs[1].plot(sy,color='blue', linewidth=3)
     axs[1].set_xlabel('Time [h]', fontsize = font)
     axs[1].set_ylabel('Viable T-cells', fontsize = font,color='blue')
@@ -204,8 +206,8 @@ def sim_endpoint(tcellmodel, hours, us, variability):
     axs[1].axvline(x=96, color="red", linestyle="--", label='Desired harvest')
     axs[1].yaxis.set_tick_params(labelsize=font)
     axs[1].xaxis.set_tick_params(labelsize=font)
-    axs[1].set_ylim([0, 1.5e8])
-    axs[1].set_xlim([0, 120])
+    axs[1].set_ylim([0, 1.8e8])
+    axs[1].set_xlim([36, 120])
     #
     axs[1].tick_params(axis='y', labelcolor='blue')
     #axs[1].set_ylim([0, 1.5e8])
