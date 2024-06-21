@@ -15,8 +15,8 @@ dependencies:
 - widgetsnbextension==3.5.2
 - lxml
 - pip
-  - pip:
-    - lxml[html_clean]
+- pip:
+  - lxml[html_clean]
 
   
 #dependencies:
